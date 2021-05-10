@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header .header-contents{
+  display: flex;
+}
+
+.header .left{
+  background-color: #005861;
+  width: 50%;
+}
+
+.header .left h1{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 48px;
+}
+
+.header .left h2{
+  font-family: 'Roboto', sans-serif;
+  color: #B4B753;
+}
+
+.header .left h3{
+  color: #B3B853;
+  padding: 15px 0 10px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header .left .nav-bar ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 0px 60px 15px;
+}
+
+.header .left .nav-bar ul li a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.header .left .header-details{
+  width: 30%;
+  margin: auto;
+}
+
+.header .right{
+  width: 50%;
+  position: relative;
+}
+
+.icon-bar {
+  position: absolute;
+  top: 35%;
+  left: 96%;
+  bottom: 50%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 7px 10px 7px 10px;
+  transition: all 0.3s ease;
+  color: black;
+  background-color: #f7dc4f;
+  font-size: 14px;
+}
+
+.icon-bar a:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.about-me{
+  text-align: center;
+}
+
+.about-me .details{
+  background-color: #e8e8e8;
+}
+
+.about-me .details .details-width{
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.about-me .details h1{
+  color: #005861;
+  padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me .details p{
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 14px;
+  padding-bottom: 15px;
+  line-height: 18px;
+}
+
+.resume-btn{
+  padding-top: 10px;
+}
+
+.resume-btn a button{
+  padding: 10px 20px;
+  background-color: #f7dc4f;
+  border: none;
+  color: #005861;
+}
+
+.resume-btn button:hover{
+  cursor: pointer;
+  background-color: #005861;
+  color: #f7dc4f;
+}
+
+.showreel h1{
+  margin: 40px;
+  text-align: center;
+  color: #005861;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.gallery{
+  margin-bottom: 40px;
+}
+.gallery h1{
+  margin: 40px;
+  text-align: center;
+  color: #005861;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.gallery-top{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.gallery-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .footer-contents{
+  display: flex;
+}
+
+.footer .right{
+  background-color: #005861;
+  width: 50%;
+}
+
+.footer .right h1{
+  color: #f9ff88;
+  padding: 90px 0 10px 70px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+}
+
+.footer .right h2{
+  font-family: 'Roboto', sans-serif;
+  color: #B4B753;
+}
+
+.footer .right h3{
+  color: white;
+  padding: 15px 0 10px 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .right h5{
+  color: white;
+  padding: 15px 0 5px 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .right p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 0 5px 70px;
+  font-size: 12px;
+}
+
+.footer .right .header-details{
+  width: 30%;
+  margin: auto;
+}
+
+.footer .right{
+  width: 50%;
+}
+
+.footer .left{
+  width: 50%;
+}
+
+.footer .social-media-icons{
+  padding: 15px 0 0 70px;
+}
+
+.social-media-icons a i{
+  padding-right: 10px;
+  color: white;
+  text-align: center;
+  background: transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.social-media-icons a i:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  background-color: transparent;
+  color: tomato;
+}
+
+.copyright p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
